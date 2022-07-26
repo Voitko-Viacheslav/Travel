@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Фиксированая верстка # -->
+  <!-- <meta name="viewport" content="width=1170"> -->
+  <title>Travel</title>
+  <link rel="icon" href="./img/icons.ico/favicon.ico">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+  <div class="travel">
+
+    <div class="popup-container"></div>
+    <div class="popup-container-mobile"></div>
+
+    <div class="travel-container">
+
+      
+
+      
+        <!-- Делаю section preview and Header backgrount -->
+          <div class="backgrount__header-preview">
+
+            <!-- Start pop-up 1 Desctop -->
+            <div class="pop-up__in">
+
+              <div class="pop-up__in-wrapper">
+               
+                <div class="pop-up__in-content">
+                  <h3 class="pop-up__in-title">Log in to your account</h3>
+
+                  <div class="pop-up__in-wrapper-button">
+                    <button class="facebook-sing btn-sing"> 
+                      <img src="./img/icons-svg/logo-facebook.svg" alt="Sign In with Facebook">Sign In with Facebook 
+                    </button>
+                  </div>
+  
+                  <div class="pop-up__in-wrapper-button">
+                    <button class="google-sing btn-sing"> 
+                      <img src="./img/icons-svg/logo-google.svg" alt="Sign In with Google">Sign In with Google 
+                    </button>
+                  </div>
+  
+                  <div class="pop-up__in-line">
+                    <p class="line-text bef-text">or</p>           
+                  </div>
+  
+                  <form class="pop-up__in-form" action="#">
+                    <label class="pop-up__in-label" for="login">E-mail</label> <br>
+                    <input tabindex="1" class="pop-up__in-input" type="email" id="login" name="login-name"><br>
+                    <label class="pop-up__in-label" for="password">Last name:</label> <br>
+                    <input tabindex="2" class="pop-up__in-input" minlength="16" type="password" id="password" name="password-name"><br>
+                    <input class="pop-up__in-form-btn" type="submit" value="Sign In">
+                    <div class="word"></div>
+                  </form>
+  
+                  <div class="pop-up__in-wrapper-forgot">
+                    <span>Forgot Your Password?</span>
+                  </div>
+            
+                  <div class="line-long">
+                    <hr>       
+                  </div>
+  
+                  <div class="pop-up__in-register">
+                    <p class="pop-up__in-register-text">Don’t have an account? <a class="pop-up__in-register-link" href="#">Register</a> </p>
+                  </div>
+                </div>
+              
+              </div>  
+
+            </div>
+            <!-- End pop-up 1 -->
+
+             <!-- Start pop-up 2 Desctop -->
+             <div class="pop-up__up popup__two">
+
+              <div class="pop-up__up-wrapper">
+               
+                <div class="pop-up__up-content">
+                  <h3 class="pop-up__up-title">Create account</h3>
+
+                  <form class="pop-up__up-form" action="#">
+                    <label class="pop-up__up-label" for="login1">E-mail</label> <br>
+                    <input tabindex="1" class="pop-up__up-input" type="email" id="login1" name="login-name"><br>
+                    <label class="pop-up__up-label" for="password">Password</label> <br>
+                    <input tabindex="2" class="pop-up__up-input" minlength="8" type="password" id="password1" name="password-name"><br>
+                    <input class="pop-up__up-form-btn" type="submit" value="Sign Up">                  
+                  </form>
+  
+                
+                  <div class="line-long">
+                    <hr>       
+                  </div>
+  
+                  <div class="pop-up__up-register">
+                    <p class="pop-up__up-register-text">Already have an account? Log in <a class="pop-up__up-register-link" href="#">Log in</a> </p>
+                  </div>
+                </div>
+              
+              </div>  
+
+            </div>
+            <!-- End pop-up 2 -->
+
+            <!-- Start pop-up 1 Mobile -->
+            <div class="pop-up__in-mobile pop-up__in-mobile-burger">
+
+              <div class="pop-up__in-wrapper-mobile">
+               
+                <div class="pop-up__in-content-mobile">
+                  <h3 class="pop-up__in-title-mobile">Log in to your account</h3>
+
+                  <div class="pop-up__in-wrapper-button-mobile">
+                    <button class="facebook-sing-mobile btn-sing-mobile"> 
+                      <img src="./img/icons-svg/logo-facebook.svg" width="15" height="15" alt="Sign In with Facebook">Sign In with Facebook 
+                    </button>
+                  </div>
+  
+                  <div class="pop-up__in-wrapper-button-mobile">
+                    <button class="google-sing-mobile btn-sing-mobile"> 
+                      <img src="./img/icons-svg/logo-google.svg" width="15" height="15" alt="Sign In with Google">Sign In with Google 
+                    </button>
+                  </div>
+  
+                  <div class="pop-up__in-line-mobile">
+                    <p class="line-text-mobile bef-text-mobile">or</p>           
+                  </div>
+  
+                  <form class="pop-up__in-form-mobile" action="#">
+                    <label class="pop-up__in-label-mobile" for="login2">E-mail</label> <br>
+                    <input tabindex="1" class="pop-up__in-input-mobile" type="email" id="login2" name="login-name-mobile"><br>
+                    <label class="pop-up__in-label-mobile" for="password">Last name:</label> <br>
+                    <input tabindex="2" class="pop-up__in-input-mobile" minlength="8" type="password" id="password2" name="password-name-mobile"><br>
+                    <input class="pop-up__in-form-btn-mobile" type="submit" value="Sign In">
+                    <div class="word-mobile"></div>
+                  </form>
+  
+                  <div class="pop-up__in-wrapper-forgot-mobile">
+                    <span>Forgot Your Password?</span>
+                  </div>
+            
+                  <div class="line-long-mobile">
+                    <hr>       
+                  </div>
+  
+                  <div class="pop-up__in-register-mobile">
+                    <p class="pop-up__in-register-text-mobile">Don’t have an account? <a class="pop-up__in-register-link-mobile" href="#">Register</a> </p>
+                  </div>
+                </div>
+              
+              </div>  
+
+            </div>
+            <!-- End pop-up 1 Mobile -->
+
+            <!-- Start pop-up 2 Mobile -->
+            <div class="pop-up__up-mobile popup__two-mobile">
+
+              <div class="pop-up__up-wrapper-mobile">
+               
+                <div class="pop-up__up-content-mobile">
+                  <h3 class="pop-up__up-title-mobile">Create account</h3>
+
+                  <form class="pop-up__up-form-mobile" action="#">
+                    <label class="pop-up__up-label-mobile" for="login4">E-mail</label> <br>
+                    <input tabindex="1" class="pop-up__up-input-mobile" type="email" id="login4" name="login-name-two-mobile"><br>
+                    <label class="pop-up__up-label-mobile" for="password">Password</label> <br>
+                    <input tabindex="2" class="pop-up__up-input-mobile" minlength="8" type="password" id="password4" name="password-name-two-mobile"><br>
+                    <input class="pop-up__up-form-btn-mobile" type="submit" value="Sign Up">                  
+                  </form>
+  
+                
+                  <div class="line-long-mobile">
+                    <hr>       
+                  </div>
+  
+                  <div class="pop-up__up-register-mobile">
+                    <p class="pop-up__up-register-text-mobile">Already have an account? Log in <a class="pop-up__up-register-link-mobile" href="#">Log in</a> </p>
+                  </div>
+                </div>
+              
+              </div>  
+
+            </div>
+            <!-- End pop-up 2 Mobile -->
+
+           
+            <!-- Делаю Header and nav -->
+            <header class="header">
+
+              <div class="header-wrapper">
+
+                <div class="header__logo">
+                  <img src="./img/icons-svg/logo.svg" alt="logo">
+                  <p>
+                    Travel Portal
+                  </p>
+                </div>
+
+              
+                <div class="header__nav">
+
+                  <ul class="header__list">
+                    <li class="header__link">
+                      <a class="header__a" href="#preview"  >
+                        How It Works
+                      </a>
+                    </li>
+                    <li class="header__link">
+                      <a class="header__a"  href="#steps" >
+                        Plan Your Trip
+                      </a>
+                    </li>
+                    <li class="header__link">
+                      <a class="header__a" href="#destinations" >
+                        Destinations
+                      </a>
+                    </li>
+                    <li class="header__link">
+                      <a class="header__a" href="#stories" >
+                        Travel Stories
+                      </a>
+                    </li>
+
+                    <li class="header__link header__nav-close-link ">
+                      <a class="header__a account" href="#account" >
+                        Account
+                      </a>
+                    </li>
+                    <li class="header__link header__nav-close-link ">
+                      <a class="header__a" href="#media" >
+                        Social Media
+                      </a>
+                    </li>
+
+                  </ul>
+
+                  <!-- спрятать форму mobile version -->
+                  <div class="header__nav-close">
+                    <span class="header__nav-close-line"></span>
+                    <span class="header__nav-close-line"></span>
+                  </div>
+                                  
+                </div>
+
+
+                <div class="header__button">
+                  <button class="header__login">
+                    Login
+                  </button>
+                </div>
+
+                <!-- Burger -->
+                <div class="header__burger burger">
+                  <span class="burger__line burger__line-1"></span>
+                  <span class="burger__line burger__line-2"></span>
+                  <span class="burger__line burger__line-3"></span>
+                </div>
+
+              </div>
+            
+            </header>
+
+            <!-- Делаю section preview  Main  -->
+            <section id="#preview" class="preview">
+
+              <div class="preview__wrapper">
+
+                <div class="preview__wrapper-content">
+
+                  <h1 class="preview__title">
+                    Explore the beauty of the World 
+                  </h1>
+      
+                  <p class="preview__subtitle">
+                    Receive personalized recommendations for countries, hotels, activities and more
+                  </p>
+      
+                  <form class="preview__search">
+                    <div class="preview__block">
+                      <input class="preview__login" name="login" placeholder="What would you like to do?">
+                    </div>
+                    <div class="preview__block">
+                      <button class="preview__submit" type="submit">
+                        Start Planning
+                      </button>
+                    </div>            
+                  </form>
+
+                </div>
+
+              </div>
+          
+            </section>
+
+           
+          </div>
+
+
+      
+
+
+        <main class="main">
+
+          <!-- Делаю section steps in Main  -->
+            <section id="steps" class="steps">
+
+            <div class="steps__wrapper">
+
+              <h2 class="steps__title title" >
+                3 STEPS TO THE PERFECT TRIP
+              </h2>
+
+              <!-- for burger -->
+              <div class="wrapper__burger-block">
+
+                <div class="steps__wraper-block-image">
+              
+                  <div class="steps__image1">
+
+                    <div class="steps__image-cont">
+                      <img class="steps__img1" src="./img/icons-svg/bike.svg" alt="bike">
+                    </div>                                
+                    <p>
+                      Tell us what you want to do
+                    </p>
+
+                  </div> 
+                                          
+                  <div class="steps__image2">
+
+                    <div class="steps__image-cont">
+                      <img class="steps__img2" src="./img/icons-svg/calendar.svg" alt="calendar">
+                    </div>
+                    
+                    <p>
+                      Share us preferable dates
+                    </p>
+
+                  </div>  
+                              
+                  <div class="steps__image3">
+
+                    <div class="steps__image-cont">
+                      <img class="steps__img3" src="./img/icons-svg/plane.svg" alt="plane">
+                    </div>                   
+                    <p>
+                      We will give you recommendations
+                    </p> 
+
+                  </div>  
+                                  
+                </div>
+
+                <!-- for burger -->
+                <div class="steps__desc-burger">
+                  <div class="steps__desc-e1 desc-text ">
+                    <p>Tell us what you want to do</p> 
+                  </div>
+                  <div class="steps__desc-e2 desc-text">
+                    <p>Share us preferable dates</p> 
+                  </div>
+                  <div class="steps__desc-e3 desc-text">
+                    <p>We will give you recommendations</p>  
+                  </div> 
+                </div>
+
+              </div>
+
+              
+                        
+            </div>
+
+          </section> 
+              
+
+          <!-- Делаю section destinations in Main  -->
+
+          <section id="destinations" class="destinations">
+
+            <h2 class="destinations__title title">
+              POPULAR DESTINATIONS
+            </h2>
+
+              <div class="destinations__wraper">
+
+                <div class="left-carousel"></div>
+
+                <div class="destinations__carousel">
+
+                  
+                             
+                  <div class="destinations__wraper-image ">
+                    <img src="./img/icons-jpg/Japan.jpg" alt="Japan">
+                    <p class="country">JAPAN</p>
+                  </div> 
+
+                  <div class="destinations__wraper-image " >             
+                    <img src="./img/icons-jpg/USA.jpg"  alt="USA">
+                    <p class="country">USA</p>
+                  </div>
+                  
+                  <div class="destinations__wraper-image  carousel-element-active" >
+                    <img src="./img/icons-jpg/Spain.jpg"  alt="Spain">
+                    <p class="country">SPAIN</p>
+                  </div>
+
+                  <div class="destinations__wraper-image ">
+                    <img src="./img/icons-jpg/Japan.jpg" alt="Japan">
+                    <p class="country">JAPAN</p>
+                  </div>
+           
+                  <div class="destinations__wraper-image " >             
+                    <img src="./img/icons-jpg/USA.jpg"  alt="USA">
+                    <p class="country">USA</p>
+                  </div>
+
+                  <div class="destinations__wraper-image " >
+                    <img src="./img/icons-jpg/Spain.jpg"  alt="Spain">
+                    <p class="country">SPAIN</p>
+                  </div>
+                  <div class="destinations__wraper-image ">
+                    <img src="./img/icons-jpg/Japan.jpg" alt="Japan">
+                    <p class="country">JAPAN</p>
+                  </div>
+                  
+                </div>
+
+                <div class="right-carousel"></div>
+                           
+              </div>
+
+              <div class="point-wrapper">
+                <div class="point-desk "> </div>
+                <div class="point-desk point-slider-active-des "> </div>
+                <div class="point-desk "> </div>
+              </div>
+
+              <div class="destinations__wrapper-button">
+                <button class="choice"> 
+                  <img src="./img/icons-svg/arrow.svg" alt="Find More">Find More 
+                </button>
+              </div>
+
+              
+
+
+              <!-- Start Mobile slider -->
+
+              <div class="destinations__wraper-slider">
+
+                <div class="destinations__wraper-image-slider">
+
+                  <div class="destinations__wraper-image-slider-small">
+                    <img class="slider__img" src="./img/icons-jpg/Spain-slider.jpg" alt="Spain">
+                    <p class="country__slider">SPAIN</p>
+                  </div>
+
+                    <div class="destinations__wraper-image-slider-small">
+                      <img class="slider__img" src="./img/icons-jpg/Japan-slider.jpg" alt="Japan">
+                      <p class="country__slider">JAPAN</p>
+                    </div>
+
+                    <div class="destinations__wraper-image-slider-small">             
+                      <img class="slider__img" src="./img/icons-jpg/USA-slider.jpg" alt="USA">
+                      <p class="country__slider">USA</p>
+                    </div> 
+                                                                                                              
+                </div> 
+
+                <span class="arrow-slider-left "  >&#10094;</span>
+                <span class="arrow-slider-right " >&#10095;</span>
+
+                <div class="point-wrapper-slider">
+                  <span class="point-slider point-slider-active"> </span>
+                  <span class="point-slider"> </span>
+                  <span class="point-slider"> </span>
+                </div> 
+
+
+
+              </div>     
+              
+              <div class="stories__burger-wrapper-button">
+                <button class="choice__burger"> 
+                  <img src="./img/icons-svg/mobile-arrow.svg" alt="See More">Find More  
+                </button>
+              </div>
+              <!-- End Mobile slider -->
+
+
+             
+
+            
+          </section>
+
+
+          <!-- Делаю section stories for Main  -->
+            
+          <section id="stories" class="stories">
+
+            <h2 class="stories__title title">TRAVEL STORIES</h2>
+          
+            <div class="fon">
+    
+              <div class="stories__color">
+
+                <div class="stories__wrapper">
+
+                  <div class="stories__travel">
+                    <div class="stories__image">
+                      <img src="./img/icons-jpg/story1.jpg" alt="Thailand">
+                    </div>
+                    <div class="stories__description">
+                      <h3 class="stories__description-title">
+                      10 Photos of Attractive Thailand
+                      </h3>
+                      <p class="stories__desc-p"  lang="zxx" >
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                        in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                        qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit
+                        amet, consectetur adipiscing elit... <span>Read More</span>  
+                      </p>
+
+                      <p class="stories__burger-desc-p">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
+                        in reprehenderit in voluptate velit 
+                        esse cillum dolore eu fugiat nulla.Lorem ipsum dolor sit a... <span>Read More</span>
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="stories__travel">
+                    <div class="stories__image">
+                      <img src="./img/icons-jpg/story2.jpg" alt="Canyonlands">
+                    </div>
+                    <div class="stories__description">
+                      <h3 class="stories__description-title">
+                        Canyonlands National Park, Utah
+                      </h3>
+                      <p class="stories__desc-p"  lang="zxx" >
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                        in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                        anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... <span>Read More</span>  
+                      </p>
+
+                      <p class="stories__burger-desc-p">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
+                        in reprehenderit in voluptate velit 
+                        esse cillum dolore eu fugiat nulla.Lorem ipsum dolor sit a... <span>Read More</span>
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="stories__travel">
+                    <div class="stories__image">
+                      <img src="./img/icons-jpg/story3.jpg" alt="Mountains">
+                    </div>
+                    <div class="stories__description">
+                      <h3 class="stories__description-title" >
+                        I left my heart in the Mountains!
+                      </h3>
+                      <p class="stories__desc-p" lang="zxx" >
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                        mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... <span>Read More</span> 
+                      </p>
+
+                      <p class="stories__burger-desc-p">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
+                        in reprehenderit in voluptate velit 
+                        esse cillum dolore eu fugiat nulla.Lorem ipsum dolor sit a... <span>Read More</span>
+                      </p>
+                    </div>
+                  </div>
+
+                  
+                  <div class="stories__travel">
+                    <div class="stories__image">
+                      <img src="./img/icons-jpg/story4.jpg" alt="Journey">
+                    </div>
+                    <div class="stories__description">
+                      <h3 class="stories__description-title stories__description-title-short">
+                        The Longest journey in my life!
+                      </h3>
+                      <p class="stories__desc-p" lang="zxx" >
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
+                        mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... <span>Read More</span> 
+                      </p>
+
+                      <p class="stories__burger-desc-p">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
+                        in reprehenderit in voluptate velit 
+                        esse cillum dolore eu fugiat nulla.Lorem ipsum dolor sit a... <span>Read More</span>
+                      </p>
+                    </div>
+                  </div>
+
+                </div>  
+
+                <div class="stories__wrapper-button">
+                  <button class="choice"> 
+                    <img src="./img/icons-svg/arrow.svg" alt="See More">See More 
+                  </button>
+                </div>
+
+                <div class="stories__burger-wrapper-button">
+                  <button class="choice__burger"> 
+                    <img src="./img/icons-svg/mobile-arrow.svg" alt="See More">See More 
+                  </button>
+                </div>
+
+              </div>
+
+            </div>  
+
+          </section>
+      
+        </main>
+
+      
+
+      
+
+      
+        <!-- Делаю footer -->
+
+         <footer id="media" class="footer"> 
+
+          <div class="fon__footer">
+            <div class="footer__wrapper">
+
+              <div class="fon__empty-block">
+                
+              </div>
+      
+              <div class="footer__portal">
+                <p class="footer__title">
+                  All Rights Reserved © Travel Portal
+                </p>
+              </div>
+            
+              <div class="footer__icon">
+                <ul class="footer__list">
+                  <li>
+                    <a class="footer__img" href="https://rs.school/js-stage0/" target="_blank" > <img src="./img/icons-svg/Instagram.svg" alt="Instagram"> </a>
+                  </li>
+                  <li>
+                    <a class="footer__img" href="https://github.com/Voitko-Viacheslav" target="_blank" > <img src="./img/icons-svg/YouTube.svg" alt="YouTube"> </a>
+                  </li>
+                  <li>
+                    <a class="footer__img" href="https://docs.rs.school/#/cross-check-flow" target="_blank"> <img src="./img/icons-svg/Twitter.svg" alt="Twitter"> </a>
+                  </li>
+                </ul>                                                   
+              </div>
+  
+            </div>
+          </div>
+ 
+        </footer> 
+
+   
+
+      
+    </div>
+
+  </div>
+
+  <script src="./js/index.js"></script>
+
+</body>
+</html>
